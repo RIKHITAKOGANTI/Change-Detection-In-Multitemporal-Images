@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        
+    </head>
+    <style>
+      body  {
+        background-image: url("static/abc.jpg");
+          background-size: 1300px 1080px;
+             }
+             button {
+  background-color: #3498DB ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover {
+    border: solid #89ED33 1px;
+    background: #CAD01E;
+    background-image: -webkit-linear-gradient(top, #CAD01E, #F6EC3D);
+    background-image: -moz-linear-gradient(top, #CAD01E, #F6EC3D);
+    background-image: -ms-linear-gradient(top, #CAD01E, #F6EC3D);
+    background-image: -o-linear-gradient(top, #CAD01E, #F6EC3D);
+    background-image: linear-gradient(to bottom, #CAD01E, #F6EC3D);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+
+    </style>
+    <body>
+        
+
+        <center>
+        <img src="static/old.jpg"  width="180" height="180"> &nbsp&nbsp&nbsp
+        <img src="static/new.jpg"  width="180" height="180"><br>
+        Old Image &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp New Image 
+        <br><br>
+
+        <button onclick="document.getElementById('myImage').src='static/Change2.jpg'">Get Change Map</button>
+        <br><br>
+
+        <img id="myImage" src="pic_bulboff.gif" style="width:180px">
+    </center>
+
+
+
+        <center>
+            <div class='cont'>
+            <h1 style="color:#cc0000;font-size: 60px">percentage of change is: {{value}}%</h1>
+
+        </div>
+          
+
+        </center>
+
+    </body>
+    </head>
